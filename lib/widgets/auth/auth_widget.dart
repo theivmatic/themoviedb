@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:themoviedb_training_app/widgets/footer/footer.dart';
 import 'package:themoviedb_training_app/widgets/theme/button_style.dart';
 
 class AuthWidget extends StatefulWidget {
@@ -18,6 +19,7 @@ class _AuthWidgetState extends State<AuthWidget> {
       body: ListView(
         children: const [
           _HeaderTextWidget(),
+          Footer(),
         ],
       ),
     );
